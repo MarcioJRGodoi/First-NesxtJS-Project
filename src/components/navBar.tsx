@@ -13,6 +13,12 @@ export const NavBar = () => {
         <li>
           <Link href={"/"}>opa</Link>
         </li>
+        <li>
+          <Link href={"/main"}>main</Link>
+        </li>
+        <li>
+          <Link href={"/todos"}>todos</Link>
+        </li>
       </ul>
     </div>
   );
